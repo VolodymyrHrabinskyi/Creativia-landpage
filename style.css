@@ -2,3 +2,18 @@
     color:aquamarine;
     font-size: 50px;
 }
+
+
+.container {
+    width:5736px;
+    height: 60px;
+    background-color:grey;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.text {
+    text-align: 50px ;
+    
+}
