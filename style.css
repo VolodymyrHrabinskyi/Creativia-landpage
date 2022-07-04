@@ -1,19 +1,44 @@
-.tap {
-    color:aquamarine;
-    font-size: 50px;
+.body {
+    box-sizing: border-box;
 }
 
-
 .container {
-    width:5736px;
+    width: 1340px;
+    height: 5000px;
+}
+
+.header {
+    width: 1340px;
     height: 60px;
-    background-color:grey;
+    background-color: rgb(9, 8, 12);
     display: flex;
     flex-wrap: nowrap;
-    
+    flex-direction: row;
+
+}
+
+header>a {
+    text-decoration: none;
 }
 
 .text {
-    text-align: 50px ;
-    
+    text-align: center;
+    width: 2500px;
+    color: green;
 }
+
+.logo {
+    text-decoration: none;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+
+}
+
+.think {
+    text-decoration: none;
+    color: rgb(122, 122, 124);
+    text-align: center;
+}
+
