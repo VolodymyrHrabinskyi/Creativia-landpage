@@ -17,6 +17,7 @@
   flex-wrap: nowrap;
   flex-direction: row;
 }
+
 li {
   display: inline;
 }
@@ -55,44 +56,67 @@ li a:hover {
   position: relative;
   top: 7px;
 }
+
 .empty {
   height: 60px;
   width: 115px;
 }
-.main {
-    width:1400px;
-    height: 4940px;
-    
-}
-.first {
-    width: 1400px;
-    height: 650px;
-}
-.background {
-    background: url(imagine/pretty-woman.png);
-    width:100%;
-    height: 100%;
-}
-.img_2 {
-position: absolute;
-width: 500px;
-height: 60px;
-top: 255px;
-left: 600px;
-}
-.lorem {
-    color:#d1d0d1;
-    font-size: 15px;
-    position: relative;
-    width: 600px;
-    height: 64px;
-    top:25px;
-    right: 120px;
-}
-.buttons{
-    width: 170px;
-    height: 50px;
-    top:250px;
 
-    
+.main {
+  width: 1400px;
+  height: 4940px;
+}
+
+.first {
+  width: 1400px;
+  height: 650px;
+}
+
+.background {
+  background: url(imagine/pretty-woman.png);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_2 {
+  width: 200px;
+  height: 60px;
+  top: 255px;
+  left: 600px;
+}
+
+.lorem {
+  color: #d1d0d1;
+  font-size: 15px;
+  width: 600px;
+  height: 64px;
+}
+
+.buttons {
+  width: 170px;
+  height: 50px;
+  top: 250px;
+}
+
+.btn {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons_1 {
+  width: 170;
+  height: 50;
+}
+
+.buttons_2 {
+  width: 170;
+  height: 500;
 }
